@@ -75,7 +75,7 @@ function App() {
           </motion.div>
           <motion.div className="hero-visual" initial={{opacity:0,scale:.94}} animate={{opacity:1,scale:1}} transition={{duration:.8,delay:.15}}>
             <div className="visual-orbit orbit-a" /><div className="visual-orbit orbit-b" />
-            <div className="portrait-frame"><div className="portrait-glow" /><img className="hero-portrait" src="/public/ahmed-aziz.jpeg" alt="Ahmed Aziz Brahim" /><div className="portrait-label"><span className="status-dot" /> DATA SCIENCE & AI</div></div>
+            <div className="portrait-frame"><div className="portrait-glow" /><img className="hero-portrait" src="/ahmed-aziz.jpeg" alt="Ahmed Aziz Brahim" /><div className="portrait-label"><span className="status-dot" /> DATA SCIENCE & AI</div></div>
             <div className="float-card float-card-top"><span className="mini-icon"><Cpu size={16}/></span><div><b>Machine Learning</b><small>Predict · Learn · Improve</small></div></div>
             <div className="float-card float-card-bottom"><span className="mini-icon purple"><Terminal size={16}/></span><div><b>Engineering mindset</b><small>Build with purpose</small></div></div>
             <div className="visual-caption"><span>01 / PROFILE</span><span>MONASTIR · TUNISIA</span></div>
